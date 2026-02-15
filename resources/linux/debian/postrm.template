@@ -22,10 +22,10 @@ if [ -e '/usr/share/debconf/confmodule' ]; then
 fi
 if [ "$RET" = "true" ]; then
 	eval $(apt-config shell APT_SOURCE_PARTS Dir::Etc::sourceparts/d)
-	CODE_SOURCE_PART=${APT_SOURCE_PARTS}vscode.sources
+	CODE_SOURCE_PART=${APT_SOURCE_PARTS}codetrellis.sources
 	rm -f $CODE_SOURCE_PART
 
-	CODE_TRUSTED_PART=/usr/share/keyrings/microsoft.gpg
+	CODE_TRUSTED_PART=/usr/share/keyrings/codetrellis.gpg
 	rm -f $CODE_TRUSTED_PART
 fi
 

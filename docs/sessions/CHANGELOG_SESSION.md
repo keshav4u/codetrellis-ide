@@ -3,12 +3,14 @@
 ## 2026-02-15 — Initial Setup & Branding
 
 ### Added
+
 - `NOTICE` — MIT license attribution file for Code-OSS upstream
 - `docs/sessions/SESSION_LATEST.md` — Session report
 - `docs/sessions/STATUS.md` — Rolling project status
 - `docs/sessions/CHANGELOG_SESSION.md` — This file
 
 ### Changed
+
 - `product.json` — Full rebrand from "Code - OSS" to "Codetrellis":
   - Product names (`nameShort`, `nameLong`, `applicationName`)
   - Data folder (`.vscode-oss` → `.codetrellis`)
@@ -30,6 +32,7 @@
   - `author.name`: `Microsoft Corporation` → `Codetrellis`
 
 ### Infrastructure
+
 - Cloned `microsoft/vscode` at commit `d057f3f`
 - Set up remotes: `origin` (keshav4u/codetrellis-ide), `upstream` (microsoft/vscode)
 - Created branch `codetrellis/main`
